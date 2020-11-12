@@ -1,0 +1,142 @@
+.header-div
+{
+    box-shadow: 0 -.125rem .25rem rgb(0,0,0,.075) ;
+}
+.header-text
+{
+    color: rgb(79,45,127);
+    font-weight: bold;
+}
+.header-text-sm
+{
+    color: rgb(79,45,127);
+    font-size: small;
+    margin:10px;
+}
+.header-text:hover
+{
+    color: deeppink;
+    text-decoration: none;
+}
+.header-text-active
+{
+    color: deeppink;
+    text-decoration: none;
+}
+.header-vert-line {
+    border-left: 2px solid deeppink;
+    height: 50px;
+}
+.header-navs > a{
+    padding-left:15px;
+    padding-right:15px;
+}
+.form-signin 
+{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgb(79,45,127);
+    color: white;
+    border-top: 10px solid deeppink;
+}
+.form-text{
+    font-size: small;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-error-text
+{
+    color: deeppink;
+    margin: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+.form-enter-button
+{
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    background-color: deeppink;
+    border-color: white;
+    width: 50%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer 
+{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: small;
+    margin:0 auto;
+}
+.footer-div
+{
+    width: 1000px;
+    margin: auto;
+}
+.list-item
+{
+    font-weight: 500;
+    color: white;
+    background-color: deeppink;
+    border-color: white;
+    text-align: center;
+}
+.list-item-paragraph
+{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.save-button
+{
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    background-color: deeppink;
+    border-color: white;
+    width: 200px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-line { 
+    border-width: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+    padding: 5px;
+}
+.header-grad-line { 
+    border-width: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to left, gainsboro, rgba(0, 0, 0, 0)) 10;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    background-color: gainsboro;
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 3px solid lightgray;
+    margin-top: 100px;
+}
+#list
+{
+    list-style: none;
+}
+
+#list li
+{
+    margin: 10px;
+    cursor: pointer;
+}
