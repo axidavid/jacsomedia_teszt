@@ -11,9 +11,9 @@
     <form class="form-signin" action="login.php" method="post">
       <p class="form-text">Please sign in</p>
       <p class="form-text">User name:</p>
-      <input type="text" name="username" style="width:100%" required autofocus>
+      <input type="text" name="username" style="width:100%" aria-label="username" required autofocus>
       <p class="form-text" style="padding-top: 1em;">Password:</p>
-      <input type="password" name="password"  style="width:100%" required>
+      <input type="password" name="password" aria-label="password"  style="width:100%" required>
       <div class="text-center">
         <button type="submit" class="form-enter-button mt-3">ENTER</button>
       </div>
